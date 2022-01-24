@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import AppContext from "../../context";
+import { StyledInput } from "./SearchFavRecipes.styles";
 
 const SearchFavRecipes = () => {
   const context = useContext(AppContext);
@@ -7,7 +8,7 @@ const SearchFavRecipes = () => {
   const { searchFavRecipe, handleSearchFavRecipeChange } = context;
 
   return (
-    <input
+    <StyledInput
       type="search"
       placeholder="Search fav recipe..."
       value={searchFavRecipe}

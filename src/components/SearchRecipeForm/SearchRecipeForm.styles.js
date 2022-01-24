@@ -61,3 +61,18 @@ export const Form = styled.form`
     background: ${({ theme }) => theme.colors.lightBlue};
   }
 `;
+
+export const StyledInput = styled.input`
+  padding: 10px 20px;
+  border-radius: 5px;
+`;
+
+export const StyledSelect = styled.select`
+  padding: 10px 20px;
+  border-radius: 5px;
+`;
+
+export const StyledOption = styled.option`
+  padding: 10px 20px;
+  border-radius: 5px;
+`;
