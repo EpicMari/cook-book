@@ -1,3 +1,5 @@
+![cover](github/CookBook.gif)
+
 # Cook Book - Recipe App
 
 Simple recipe app created with axios, styled-components and API recipe.
