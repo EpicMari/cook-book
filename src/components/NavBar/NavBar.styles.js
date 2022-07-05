@@ -8,7 +8,7 @@ export const NavBarStyled = styled.div`
   top: 0;
   left: 0;
   height: 80px;
-  background: ${({ theme }) => theme.colors.darkBlue};
+  background: ${({ theme }) => theme.colors.darkBrown};
   box-shadow: 0 0 3px black;
   width: 100%;
 `;
@@ -79,7 +79,7 @@ export const Navigation = styled.div`
   z-index: 3;
   top: 80px;
   width: 100%;
-  background: ${({ theme }) => theme.colors.darkBlue};
+  background: ${({ theme }) => theme.colors.darkBrown};
   transition: height 0.3s 0.3s ease-in-out;
 
   &.active {

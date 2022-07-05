@@ -18,7 +18,7 @@ export const Item = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: ${({ theme }) => theme.colors.blue};
+  background: ${({ theme }) => theme.colors.brown};
   margin: 20px 20px;
   height: 450px;
   width: 300px;
@@ -31,11 +31,11 @@ export const Button = styled.button`
   margin-bottom: 20px;
   padding: 10px 20px;
   border-radius: 5px;
-  border: 1px solid ${({ theme }) => theme.colors.darkBlue};
+  border: 1px solid ${({ theme }) => theme.colors.darkBrown};
   transition: 0.3s ease-in-out;
 
   &:hover {
-    background: ${({ theme }) => theme.colors.lightBlue};
+    background: ${({ theme }) => theme.colors.pink};
   }
 
   @media (min-width: 679px) {

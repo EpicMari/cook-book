@@ -11,12 +11,12 @@ export const Wrapper = styled.div`
   height: 40px;
   width: 200px;
   border-radius: 5px;
-  border: 2px solid ${({ theme }) => theme.colors.darkBlue};
-  background: ${({ theme }) => theme.colors.lightBlue};
+  border: 2px solid ${({ theme }) => theme.colors.darkBrown};
+  background: ${({ theme }) => theme.colors.pink};
   font-size: ${({ theme }) => theme.fontSizes.xs};
   transition: 1s 1s ease-in-out;
 
   h3 {
-    color: ${({ theme }) => theme.colors.darkBlue};
+    color: ${({ theme }) => theme.colors.darkBrown};
   }
 `;

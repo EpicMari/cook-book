@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   margin: 110px 0 20px 0;
   width: 90%;
   max-width: 1000px;
-  background: ${({ theme }) => theme.colors.lightBlue};
+  background: ${({ theme }) => theme.colors.pink};
   box-shadow: 7px 7px 17px -2px #000000;
 
   @media (min-width: 650px) {

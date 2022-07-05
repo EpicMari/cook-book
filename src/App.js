@@ -24,8 +24,6 @@ class App extends Component {
     offset: 0,
     notification: false,
     searchFavRecipe: "",
-    // recipeNumber: 0,
-    // buttonToggle: getDisabledButtonToLocalStorage(),
   };
 
   componentDidUpdate(prevProps, prevState) {
@@ -41,9 +39,7 @@ class App extends Component {
     if (prevState.favRecipes !== this.state.favRecipes) {
       this.checkFavRecipesList(this.state.recipes);
     }
-    // if (this.state.buttonToggle !== prevState.buttonToggle) {
-    //   this.setDisabledButton();
-    // }
+
     if (prevState.searchFavRecipe !== this.state.searchFavRecipe) {
       this.filterFavRecipesByName();
     }
@@ -76,13 +72,6 @@ class App extends Component {
     }
   };
 
-  // setDisabledButton = () => {
-  //   localStorage.setItem(
-  //     "buttonToggle",
-  //     JSON.stringify(this.state.buttonToggle)
-  //   );
-  // };
-
   handleSearchFavRecipeChange = (e) => {
     this.setState({
       searchFavRecipe: e.target.value,
@@ -99,7 +88,6 @@ class App extends Component {
         const recipeArray = [...recipes, ...res.data.results];
         this.checkFavRecipesList(recipeArray);
         this.setState({
-          // offset: offset + 5,
           offset: recipes.length + 5,
         });
       })

@@ -37,7 +37,7 @@ export const Button = styled.button`
   transition: 0.3s ease-in-out;
 
   &:hover {
-    background: ${({ theme }) => theme.colors.lightBlue};
+    background: ${({ theme }) => theme.colors.pink};
   }
 
   @media (min-width: 679px) {

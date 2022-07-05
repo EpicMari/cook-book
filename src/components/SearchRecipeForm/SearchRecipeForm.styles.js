@@ -8,7 +8,7 @@ export const Form = styled.form`
   width: 90vw;
   min-width: 300px;
   border-radius: 5px;
-  background: ${({ theme }) => theme.colors.darkBlue};
+  background: ${({ theme }) => theme.colors.avgBrown};
   box-shadow: 0 0 5px black;
 
   @media (min-width: 670px) {
@@ -58,7 +58,7 @@ export const Form = styled.form`
   }
 
   button:hover {
-    background: ${({ theme }) => theme.colors.lightBlue};
+    background: ${({ theme }) => theme.colors.pink};
   }
 `;
 

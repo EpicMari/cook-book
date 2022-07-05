@@ -1,13 +1,8 @@
-import React, { useContext } from "react";
-import AppContext from "../../context";
+import React from "react";
 import RecipesListItem from "../RecipesListItem/RecipesListItem";
-import { Item, ListItem, Button } from "./RecipesList.styles";
+import { Item, ListItem } from "./RecipesList.styles";
 
 const RecipesList = ({ recipesArray, listType }) => {
-  // const context = useContext(AppContext);
-
-  // const { recipeType, getFiveMoreRecipes, getFiveLessRecipes } = context;
-
   return (
     <>
       <ListItem>
@@ -17,13 +12,6 @@ const RecipesList = ({ recipesArray, listType }) => {
           </Item>
         ))}
       </ListItem>
-
-      {/* {recipesArray.length > 0 && (
-        <Button onClick={getFiveMoreRecipes}>Get 5 more {recipeType}s </Button>
-      )}
-      {recipesArray.length > 10 && (
-        <Button onClick={getFiveLessRecipes}>Get 5 less {recipeType}s </Button>
-      )} */}
     </>
   );
 };

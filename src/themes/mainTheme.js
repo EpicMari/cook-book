@@ -1,9 +1,14 @@
 export const mainTheme = {
   colors: {
     white: "#f9f7f7",
-    lightBlue: "#dbe2ef",
-    blue: "#3f72af",
-    darkBlue: "#112d4e",
+    pink: "#F3C5C5",
+    brown: "#C1A3A3",
+    avgBrown: "#886F6F",
+    darkBrown: "#694E4E",
+    // white: "#f9f7f7",
+    // lightBlue: "#dbe2ef",
+    // blue: "#3f72af",
+    // darkBlue: "#112d4e",
   },
 
   fontSizes: {
